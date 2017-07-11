@@ -1,0 +1,237 @@
+@import "webfont/stylesheet.css";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Aller', sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+}
+.center {
+  width: 940px;
+  margin: 0 auto;
+}
+.navbar {
+  height: 45px;
+  background: #242424;
+}
+.navbar h1.logo {
+  position: relative;
+  top: 12px;
+  left: 0;
+}
+.navbar h1.logo:hover {
+  opacity: 0.8;
+}
+.navbar .nav-right {
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+.navbar .nav-right ul {
+  overflow: hidden;
+}
+.navbar .nav-right ul li {
+  float: left;
+}
+.navbar .nav-right ul li a {
+  display: block;
+  padding: 0 25px;
+  line-height: 45px;
+  font-size: 11px;
+  color: #7e7e7e;
+  border-right: 1px solid #383838;
+}
+.navbar .nav-right ul li a:hover {
+  background: #333;
+}
+.navbar .nav-right ul li:first-child a {
+  font-size: 15px;
+}
+.menu {
+  height: 60px;
+}
+.menu .menu-left ul {
+  float: left;
+  border-right: 1px solid #eee;
+}
+.menu .menu-left ul li {
+  float: left;
+}
+.menu .menu-left ul li a {
+  display: block;
+  line-height: 60px;
+  font-size: 16px;
+  color: #242424;
+  border-left: 1px solid #eee;
+  padding: 0 25px;
+}
+.menu .menu-left ul li a:hover {
+  background: #f5f5f5;
+  color: #57c5a0;
+}
+.menu .menu-right ul {
+  float: right;
+  border-right: 1px solid #ccc;
+}
+.menu .menu-right ul li {
+  float: left;
+  height: 60px;
+}
+.menu .menu-right ul li a {
+  display: block;
+  height: 60px;
+  padding: 0 25px;
+  color: #adadad;
+  border-left: 1px solid #ccc;
+}
+.menu .menu-right ul li a i {
+  position: relative;
+  top: 22px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.menu .menu-right ul li a span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  min-width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  line-height: 20px;
+  background: #adadad;
+  border-radius: 4px;
+}
+.menu .menu-right ul li a:hover {
+  color: #57c5a0;
+  background: #fafafa;
+}
+.menu .menu-right ul li:last-child a span {
+  background: #57c5a0;
+}
